@@ -1,0 +1,7 @@
+# problem 1
+# hacker rank link:https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    unique_scores = sorted(set(arr), reverse=True)
+    print(unique_scores[1])
